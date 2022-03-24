@@ -8,6 +8,9 @@
     <title>Boolpress</title>
 </head>
 <body>
+    <div id="app">
+
+    </div>
     
     <script src="{{asset("js/front.js")}}"></script>
 </body>
