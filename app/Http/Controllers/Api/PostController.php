@@ -15,6 +15,7 @@ class PostController extends Controller
         //     "cognome" => "Vitello"
         // ]);
         $posts = Post::all();
+        $filtered_posts = Post::where("category_id", "!=", 1)->get();
         return response()->json($posts);
     }
 }
