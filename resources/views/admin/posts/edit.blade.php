@@ -7,11 +7,11 @@
     @csrf
     
     <div class="form-group">
-      <label for="title">Title:</label>
+      <label for="title">Titolo:</label>
       <input type="text" class="form-control" id="title" name="title" value="{{$post->title}}">
     </div>
     <div class="form-group">
-      <label for="content">Content:</label>
+      <label for="content">Contenuto:</label>
       <input type="text" id="content" name="content" {{$post->content}}>
     </div>
     <select name="category_id" id="">

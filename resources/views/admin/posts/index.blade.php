@@ -8,9 +8,9 @@
         <span aria-hidden="true">&times;</span>
         </button>
     </div>
-    
-
 @endauth
+
+
 <div class="d-flex justify-content-center flex-column align-items-center">
     <h1>Lista Posts</h1>
     <a href="{{ route('admin.posts.create') }}"><button type="button" class="btn btn-warning">Crea Post</button></a>

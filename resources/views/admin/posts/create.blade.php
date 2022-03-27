@@ -9,8 +9,8 @@
   @endforeach
 
 
-  <label for="title">Oggetto del post</label>
-  <input type="text" name="title" id="" placeholder="inserirsci oggetto post">
+  <label for="title">Titolo del post</label>
+  <input type="text" name="title" id="" placeholder="inserirsci titolo post">
 
   <label for="description">Corpo del post</label>
   <input type="text" name="content" id="" placeholder="cosa vorresti scrivere?">
@@ -20,5 +20,5 @@
          <option value="{{$category->id}}">{{$category->name}}</option>
       @endforeach
     </select>
-  <button type="submit" value="Submit">aggiungi</button>
+  <button type="submit" value="Submit">Aggiungi</button>
 </form>
